@@ -1,1 +1,13 @@
+import React from 'react'
+import UseEffectExample from './components/UseEffectExample'
+import "./Styles/global.css"
 
+const App = () => {
+  return (
+    <>
+    <UseEffectExample/>
+    </>
+  )
+}
+
+export default App
