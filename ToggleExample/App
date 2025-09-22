@@ -1,1 +1,15 @@
+import React from 'react'
+import Ifelse from './components/Ifelse'
+import Ternary from './components/Ternary'
+import Bulb from './components/Bulb'
+const App = () => {
+  return (
+    <div>
+      <Ifelse/>
+      <Ternary/>
+      <Bulb/>
+      </div>
+  )
+}
 
+export default App
